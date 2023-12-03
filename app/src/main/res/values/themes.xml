@@ -6,4 +6,8 @@
     </style>
 
     <style name="Theme.Joosumandroid" parent="Base.Theme.Joosumandroid" />
+
+    <style name="Theme.Joosumandroid.SplashScreen">
+        <item name="android:windowBackground">@drawable/background_splash_screen</item>
+    </style>
 </resources>
