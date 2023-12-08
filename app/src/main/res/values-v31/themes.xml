@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Joosumandroid.SplashScreen">
+        <item name="android:windowSplashScreenBackground">@color/primary_500</item>
+    </style>
+</resources>
