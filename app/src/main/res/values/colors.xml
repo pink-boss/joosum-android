@@ -26,6 +26,8 @@
     <color name="primary_800">#17113C</color>
     <color name="primary_900">#0B081E</color>
 
+    <color name="paperabovebg">#5242BF</color>
+
     <!-- System -->
 
     <color name="error">#E34C4B</color>
