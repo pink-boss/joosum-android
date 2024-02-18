@@ -2,6 +2,7 @@ package com.pinkboss.joosum.presentation.home
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat
 import com.pinkboss.joosum.R
 import com.pinkboss.joosum.databinding.ActivityHomeBinding
 import com.pinkboss.joosum.presentation.home.folder.FolderFragment
@@ -14,6 +15,8 @@ class HomeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityHomeBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        window.statusBarColor = ContextCompat.getColor(this, R.color.paperabovebg)
 
         binding.bottomNavigationHome.setOnItemSelectedListener { item ->
             when (item.itemId) {
