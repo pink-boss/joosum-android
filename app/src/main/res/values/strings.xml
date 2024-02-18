@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">주섬</string>
     <string name="login_title">링크를 주섬주섬 담아\n나만의 책장을 만들어요</string>
+    <string name="home">홈</string>
+    <string name="folder">내 폴더</string>
+    <string name="info">내 정보</string>
 </resources>
