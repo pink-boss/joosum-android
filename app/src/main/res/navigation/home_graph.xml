@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_graph"
+    app:startDestination="@id/home">
+
+    <fragment
+        android:id="@+id/home"
+        android:name="com.pinkboss.joosum.presentation.home.HomeFragment"
+        android:label="@string/home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/folder"
+        android:name="com.pinkboss.joosum.presentation.home.folder.FolderFragment"
+        android:label="@string/folder"
+        tools:layout="@layout/fragment_folder" />
+    <fragment
+        android:id="@+id/info"
+        android:name="com.pinkboss.joosum.presentation.home.info.InfoFragment"
+        android:label="@string/info"
+        tools:layout="@layout/fragment_info" />
+</navigation>
