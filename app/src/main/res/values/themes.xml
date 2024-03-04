@@ -3,15 +3,25 @@
     <style name="Base.Theme.Joosumandroid" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
 
-         <item name="colorPrimary">@color/primary_500</item>
+        <item name="colorPrimary">@color/primary_500</item>
     </style>
 
     <style name="Theme.Joosumandroid" parent="Base.Theme.Joosumandroid" />
 
-     Splash screen theme.
+    Splash screen theme.
+
     <style name="Theme.Joosumandroid.SplashScreen">
         <item name="android:windowBackground">@drawable/background_splash_screen</item>
         <item name="windowSplashScreenAnimatedIcon">@android:color/transparent</item>
         <item name="postSplashScreenTheme">@style/Theme.Joosumandroid</item>
+    </style>
+
+    <style name="Theme.Joosumandroid.DefaultButton">
+        <item name="android:clickable">true</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="materialButtonStyle">@drawable/background_default_button</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">16sp</item>
     </style>
 </resources>
