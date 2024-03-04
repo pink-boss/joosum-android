@@ -1,6 +1,17 @@
 <resources>
     <string name="app_name">주섬</string>
+
+    <!-- Log in -->
     <string name="login_title">링크를 주섬주섬 담아\n나만의 책장을 만들어요</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_1">링크만 붙여넣으면,\n제목은 자동으로 생성해줘요.</string>
+    <string name="onboarding_2">나만의 폴더를 생성해서 저장하고,\n언제든 쉽게 찾아보세요!</string>
+    <string name="onboarding_3">태그를 추가해보세요.\n나중에 어떤 내용인지 확인할 수 있어요.</string>
+    <string name="next">다음</string>
+    <string name="onboarding_start">주섬 시작하기</string>
+
+    <!-- Home -->
     <string name="home">홈</string>
     <string name="folder">내 폴더</string>
     <string name="info">내 정보</string>
